@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guiller R. Rabbon | Portfolio</title>
+<meta name="description" content="Portfolio of Guiller R. Rabbon.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="nav">
+  <a class="nav__logo" href="#home" aria-label="Portfolio of Guiller R. Rabbon, home">Portfolio</a>
+  <nav aria-label="Main">
+    <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <ul class="nav__menu" id="menu">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <section class="hero" id="home" aria-labelledby="name">
+    <div>
+      <p class="hero__hi">Hello, I'm</p>
+      <h1 id="name">Guiller R. Rabbon</h1>
+      <p class="hero__role"><span class="type" id="type">Student</span></p>
+      <div class="hero__actions">
+        <a class="btn" href="#projects">View projects</a>
+        <a class="btn btn--ghost" href="#contact">Contact me</a>
+      </div>
+    </div>
+    <figure class="hero__photo">
+      <img src="photo.jpg" alt="Portrait of Guiller R. Rabbon, looking up at the camera in a brown blazer, white shirt and black tie against a light blue background" width="900" height="1200">
+    </figure>
+  </section>
+
+  <section class="section reveal" id="about" aria-labelledby="about-h">
+    <h2 id="about-h">About</h2>
+    <p>Hi, I'm Guiller. This is where I share my work, what I'm learning, and the things I like to build. Replace this text with a short intro about you.</p>
+    <ul class="chips" aria-label="Interests">
+      <li>Web development</li>
+      <li>Design</li>
+      <li>Problem solving</li>
+    </ul>
+  </section>
+
+  <section class="section reveal" id="experience" aria-labelledby="experience-h">
+    <h2 id="experience-h">Experience</h2>
+    <article class="card">
+      <h3>Third-year student</h3>
+      <p class="muted">Beginner level. Learning the fundamentals and working on my first projects.</p>
+    </article>
+  </section>
+
+  <section class="section reveal" id="resume" aria-labelledby="resume-h">
+    <h2 id="resume-h">Resume</h2>
+    <article class="card">
+      <h3>University of Northern Philippines</h3>
+      <p class="muted">Education: currently a third-year student.</p>
+    </article>
+  </section>
+
+  <section class="section reveal" id="projects" aria-labelledby="projects-h">
+    <h2 id="projects-h">Projects</h2>
+    <article class="card">
+      <h3>In progress</h3>
+      <p class="muted">My projects are still in progress. Check back soon.</p>
+    </article>
+  </section>
+
+  <section class="section reveal" id="skills" aria-labelledby="skills-h">
+    <h2 id="skills-h">Skills</h2>
+    <ul class="bars" id="bars">
+      <li>C <span class="bar" role="img" aria-label="C: 45 percent"><i style="--w:45%"></i></span></li>
+      <li>C++ <span class="bar" role="img" aria-label="C++: 40 percent"><i style="--w:40%"></i></span></li>
+      <li>JavaScript <span class="bar" role="img" aria-label="JavaScript: 50 percent"><i style="--w:50%"></i></span></li>
+      <li>HTML &amp; CSS <span class="bar" role="img" aria-label="HTML and CSS: 55 percent"><i style="--w:55%"></i></span></li>
+    </ul>
+  </section>
+
+  <section class="section reveal" id="contact" aria-labelledby="contact-h">
+    <h2 id="contact-h">Contact</h2>
+    <p>Choose how you would like to reach me.</p>
+    <div class="hero__actions">
+      <a class="btn" href="https://github.com/guillerrabbon70-creator" target="_blank" rel="noopener noreferrer">GitHub<span class="sr"> (opens in a new tab)</span></a>
+      <a class="btn btn--ghost" href="tel:+639453765198">Call: 0945 376 5198</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year">2026</span> Guiller R. Rabbon</p>
+</footer>
+
+<script src="portfolio.js"></script>
+</body>
+</html>
